@@ -6,7 +6,7 @@ import { FormControl, FormGroup } from '@angular/forms';
   templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
-  public mask: Array;
+  public mask: Array<any>;
   public myModel: string;
 
   constructor() {
