@@ -14,7 +14,5 @@ export class AppComponent {
     this.myModel = ''
   }
 
-  testForm = new FormGroup({
-   maskedInput: new FormControl()
-  })
+   maskedInput = new FormControl()
 }
