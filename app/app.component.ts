@@ -15,4 +15,8 @@ export class AppComponent {
   }
 
    maskedInput = new FormControl()
+
+   maskedInputFormGroup = new FormGroup({
+     groupControl: new FormControl()
+   })
 }

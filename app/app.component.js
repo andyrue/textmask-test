@@ -13,6 +13,9 @@ var forms_1 = require('@angular/forms');
 var AppComponent = (function () {
     function AppComponent() {
         this.maskedInput = new forms_1.FormControl();
+        this.maskedInputFormGroup = new forms_1.FormGroup({
+            groupControl: new forms_1.FormControl()
+        });
         this.mask = ['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
         this.myModel = '';
     }
